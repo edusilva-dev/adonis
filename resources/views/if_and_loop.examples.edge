@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Usuarios</h1>
+  @each (user in users)
+    <span>{{ user.name }} - {{user.admin ? "Administrador" : "Usuario"}}</span>
+    <br>
+  @end
+
+  <hr>
+
+  <h1>Administradores</h1>
+  @each (user in users)
+    @if (user.admin)
+      <br>
+      <span>Nome: {{ user.name }}</span>
+      <br>
+    @end
+  @end
+
+  <hr>
+
+  <h1>Usuarios</h1>
+  @each (user in users)
+    @if (!user.admin)
+      <span>Nome: {{ user.name }}</span>
+      <br>
+      <span>Tecnologias: {{ user.stacks }}</span>
+      <br>
+      <br>
+    @end
+  @end
+  
+</body>
+</html>
