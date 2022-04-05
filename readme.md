@@ -1,6 +1,6 @@
 # AdonisJs
 
-> Estudo sobre o funcionamento do framework
+> To start project, run: npm init adonis-ts-app project-name
 
 ---
 
@@ -13,7 +13,6 @@
 > Creates a file into specified directory that cames after ":" on command
 
 - node ace make:controller controllerName (without need to specify "Controller" in the name, ex: node ace make:controller Home)
-
   > Will be created a file into controllers folder
 
 - node ace make:view viewName
