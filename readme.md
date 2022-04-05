@@ -46,6 +46,8 @@
 > - To install run: npm i @adonijs/auth
 > - To configure run: node ace configure @adonisjs/auth
 
+---
+
 #### Request Functions
 
 - language: request.language()
