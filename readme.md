@@ -20,7 +20,7 @@
 - node ace make:migration tableName
   > Will be created a migration into the migrations folder.
 
-###### Migration
+##### Migration
 
 - node ace migration:run
 
