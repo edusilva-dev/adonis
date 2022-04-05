@@ -34,6 +34,18 @@
 
 ---
 
+## Adonis Libs
+
+#### Lucid 
+> How to install and configure
+> - To install run: npm i @adonijs/lucid
+> - To configure run: node ace configure @adonisjs/lucid
+
+#### 
+> How to install and configure
+> - To install run: npm i @adonijs/auth
+> - To configure run: node ace configure @adonisjs/auth
+
 #### Request Functions
 
 - language: request.language()
