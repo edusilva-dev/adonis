@@ -41,7 +41,7 @@
 > - To install run: npm i @adonijs/lucid
 > - To configure run: node ace configure @adonisjs/lucid
 
-#### 
+#### Auth
 > How to install and configure
 > - To install run: npm i @adonijs/auth
 > - To configure run: node ace configure @adonisjs/auth
